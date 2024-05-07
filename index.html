@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="manifest" href="/js/manifest.webmanifest">
+    <link rel="shortcut icon" href="./icons/app icon.svg" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/icons/icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Sunny Music</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 navbar-col">
+                <header>
+                    <nav class="nav">
+                        <ul class="menu-list">
+                            <li><a href="#"><img src="./icons/logo.svg" alt="Home"></a></li>
+                            <li><a href="#" class="text-white menu-link">Main</a></li>
+                            <li><a href="./pages/my-playlist.html" class="text-white menu-link">My Playlist</a></li>
+                        </ul>
+                        <div class="user-image"></div>
+                    </nav>
+                </header>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-white text-uppercase main-title">Ready<br>
+                    for<br>
+                    music<br></h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="active-song-container">
+                    <div class="art-name">
+                        <div class="active-track-art"></div>
+
+                        <div class="name-artist">
+                            <div class="active-track-name"></div>
+                            <div class="active-track-artist"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="active-track-duration"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-12">
+                <ul class="playlist-list" id="playlist">
+
+                    <li>
+                        <div class="picture-name">
+                            <img src="./img/isabel-larosa-favorite-album-cover.jpg" class="playlist-song-pic" alt="">
+                            <div class="name-artist">
+                                <p class="playlist-track-name">Favorite</p>
+                                <p class="playlist-track-artist">Isabel Larosa</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="picture-name">
+                            <img src="./img/brodyaga-funk-album-cover.jpg" class="playlist-song-pic" alt="">
+                            <div class="name-artist">
+                                <p class="playlist-track-name">BRODYAGA FUNK - SLOWED + REVERB</p>
+                                <p class="playlist-track-artist">Eternxlkz</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="picture-name">
+                            <img src="./img/soaked-album-cover.jpg" class="playlist-song-pic" alt="">
+                            <div class="name-artist">
+                                <p class="playlist-track-name">Soaked (Slowed + Reverb)</p>
+                                <p class="playlist-track-artist">Shy Smith</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="picture-name">
+                            <img src="./img/cleared-album-cover.jpg" class="playlist-song-pic" alt="">
+                            <div class="name-artist">
+                                <p class="playlist-track-name">Cleared (Slowed + Reverb)</p>
+                                <p class="playlist-track-artist">Lilithzplug</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="picture-name">
+                            <img src="./img/judas-album-cover.jpg" class="playlist-song-pic" alt="">
+                            <div class="name-artist">
+                                <p class="playlist-track-name">Judas (Tiktok remix)</p>
+                                <p class="playlist-track-artist">Lady Gaga</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="picture-name">
+                            <img src="./img/farben-album-cover.jpg" class="playlist-song-pic" alt="">
+                            <div class="name-artist">
+                                <p class="playlist-track-name">Farben (Tiktok Slowed Remix)</p>
+                                <p class="playlist-track-artist">Orange Sector</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="picture-name">
+                            <img src="./img/wake-up-album-cover.jpg" class="playlist-song-pic" alt="">
+                            <div class="name-artist">
+                                <p class="playlist-track-name">WAKE UP!</p>
+                                <p class="playlist-track-artist">MoonDeity</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="picture-name">
+                            <img src="./img/murder-in-my-mind-album-cover.jpg" class="playlist-song-pic" alt="">
+                            <div class="name-artist">
+                                <p class="playlist-track-name">Murder in my mind (guitar remix)</p>
+                                <p class="playlist-track-artist">Kordhell</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="picture-name">
+                            <img src="./img/protection-charm-album-cover.jpg" class="playlist-song-pic" alt="">
+                            <div class="name-artist">
+                                <p class="playlist-track-name">Protection Charm x Death Is No More - Tiktok Remix & Slowed</p>
+                                <p class="playlist-track-artist">Miguel Angeles</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="picture-name">
+                            <img src="./img/rapture-album-cover.jpg" class="playlist-song-pic" alt="">
+                            <div class="name-artist">
+                                <p class="playlist-track-name">Rapture</p>
+                                <p class="playlist-track-artist">Interworld</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="picture-name">
+                            <img src="./img/funked-up-album-cover.jpg" class="playlist-song-pic" alt="">
+                            <div class="name-artist">
+                                <p class="playlist-track-name">Funked Up (Slowed)</p>
+                                <p class="playlist-track-artist">Xxanteria</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="picture-name">
+                            <img src="./img/metamorphosis-album-cover.jpg" class="playlist-song-pic" alt="">
+                            <div class="name-artist">
+                                <p class="playlist-track-name">Metamorphosis</p>
+                                <p class="playlist-track-artist">Interworld</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="picture-name">
+                            <img src="./img/babydollxthe_perfect_girl-album-cover.jpg" class="playlist-song-pic" alt="">
+                            <div class="name-artist">
+                                <p class="playlist-track-name">Babydoll x The perfect girl remix</p>
+                                <p class="playlist-track-artist">DJ Fronteo</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="picture-name">
+                            <img src="./img/automotivo-album-cover.jpg" class="playlist-song-pic" alt="">
+                            <div class="name-artist">
+                                <p class="playlist-track-name">Automotivo Bibi Fogosa (slowed remix)</p>
+                                <p class="playlist-track-artist">Bibi Babydoll</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="picture-name">
+                            <img src="./img/the_way_you_kiss_me-album-cover.jpg" class="playlist-song-pic" alt="">
+                            <div class="name-artist">
+                                <p class="playlist-track-name">i like the way you kiss me</p>
+                                <p class="playlist-track-artist">Artemas</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="picture-name">
+                            <img src="./img/midnight-city-album-cover.png" class="playlist-song-pic" alt="">
+                            <div class="name-artist">
+                                <p Midnight class="playlist-track-name">Midnight City (slowed + reverb)</p>
+                                <p class="playlist-track-artist">M83</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="picture-name">
+                            <img src="./img/goth-album-cover.jpg" class="playlist-song-pic" alt="">
+                            <div class="name-artist">
+                                <p class="playlist-track-name">Goth</p>
+                                <p class="playlist-track-artist">Sidewalks And Skeletons</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="picture-name">
+                            <img src="./img/greedy-album-cover.png" class="playlist-song-pic" alt="">
+                            <div class="name-artist">
+                                <p class="playlist-track-name">Greedy</p>
+                                <p class="playlist-track-artist">Tate McRae</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="picture-name">
+                            <img src="./img/strangers-album-cover.png" class="playlist-song-pic" alt="">
+                            <div class="name-artist">
+                                <p class="playlist-track-name">Strangers</p>
+                                <p class="playlist-track-artist">Kenya Grace</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="picture-name">
+                            <img src="./img/fashion-album-cover.jpg" class="playlist-song-pic" alt="">
+                            <div class="name-artist">
+                                <p class="playlist-track-name">Fashion</p>
+                                <p class="playlist-track-artist">Britney Manson</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="picture-name">
+                            <img src="./img/circus_gimme_more-album-cover.jpg" class="playlist-song-pic" alt="">
+                            <div class="name-artist">
+                                <p class="playlist-track-name">Circus x Gimme More (Tiktok Remix)</p>
+                                <p class="playlist-track-artist">Roeinon</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="picture-name">
+                            <img src="./img/babydoll-album-cover.jpg" class="playlist-song-pic" alt="">
+                            <div class="name-artist">
+                                <p class="playlist-track-name">Babydoll (speedup)</p>
+                                <p class="playlist-track-artist">Ari Abdul</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="picture-name">
+                            <img src="./img/heartburn-album-cover.png" class="playlist-song-pic" alt="">
+                            <div class="name-artist">
+                                <p class="playlist-track-name">Heartburn</p>
+                                <p class="playlist-track-artist">Tenseoh</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="picture-name">
+                            <img src="./img/as-it-was-album-cover.png" class="playlist-song-pic" alt="">
+                            <div class="name-artist">
+                                <p class="playlist-track-name">As It Was</p>
+                                <p class="playlist-track-artist">Harry Styles</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="picture-name">
+                            <img src="./img/the-weeknd.png" class="playlist-song-pic" alt="">
+                            <div class="name-artist">
+                                <p class="playlist-track-name">Blinding Lights</p>
+                                <p class="playlist-track-artist">The Weeknd</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="picture-name">
+                            <img src="./img/sirens-album-cover.jpg" class="playlist-song-pic" alt="">
+                            <div class="name-artist">
+                                <p class="playlist-track-name">Sirens</p>
+                                <p class="playlist-track-artist">Imagine Dragons</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="picture-name">
+                            <img src="./img/bones-album-cover.png" class="playlist-song-pic" alt="">
+                            <div class="name-artist">
+                                <p class="playlist-track-name">Bones</p>
+                                <p class="playlist-track-artist">Imagine Dragons<</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="picture-name">
+                            <img src="./img/rather-be-album-cover.jpg" class="playlist-song-pic" alt="">
+                            <div class="name-artist">
+                                <p class="playlist-track-name">Rather be</p>
+                                <p class="playlist-track-artist">Clean Bandit feat Jess Glynne</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="picture-name">
+                            <img src="./img/unstoppable-album-cover.jpg" class="playlist-song-pic" alt="">
+                            <div class="name-artist">
+                                <p class="playlist-track-name">Unstopptable</p>
+                                <p class="playlist-track-artist">Sia</p>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul> 
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bottom-song-info-container">
+        <div class="decoration-line"></div>
+
+        <div class="player">
+            <div class="details">
+              <div class="track-art"></div>
+              <div class="track-name">No music</div>
+              <div class="track-artist">Artist</div>
+            </div>
+            <div class="slider-container">
+                <div class="time-of-song">
+                    <div class="current-time">0:00</div>
+                    <diV class="slash">/</diV>
+                    <div class="total-duration">0:00</div>
+                </div>
+                <input type="range" id="seek" min="0" max="100" value="0" onchange="seekTo()">
+    
+              </div>
+
+            <div class="buttons">
+              <button id="prev" class="change-song-btn" onclick="prevTrack()"><img src="./icons/previous-song-not-active.svg" alt="Previous" class="change-song-icon"></button>
+              <button id="play" class="play-song-btn" onclick="playPauseTrack()"><img src="./icons/play-not-active.svg" class="play-song-icon" alt="Play"></button>
+              <button id="next" class="change-song-btn" onclick="nextTrack()"><img src="./icons/next-song-not-active.svg" class="change-song-icon"alt="Next"></button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script> 
+    <script src="/js/script.js"></script>
+</body>
+</html>
